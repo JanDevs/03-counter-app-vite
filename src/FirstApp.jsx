@@ -8,17 +8,15 @@ const mensaje = () => {
     return "Holis";
 }
 
-export const FirstApp = () => {
+export const FirstApp = ( { title, subtitle } ) => {
 
-    
+    //console.log(props);
 
     return(
         <>
-            <h1> { JSON.stringify( newMessage ) } </h1>
-            <h3> { newMessage.message } </h3>
-            <h4> { newMessage.title } </h4>
-            <h4> { mensaje() } </h4>
-            <p>Soy un subtítulo</p>
+            <h1> { title } </h1>
+            <h2> { subtitle + 2 } </h2>
+            
         </>
         
     );
