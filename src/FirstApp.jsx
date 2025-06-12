@@ -1,12 +1,14 @@
 
 
-const FirstApp = () => {
+const FirstApp = ( { title, subtitle } ) => {
+  
+  // console.log(props);
 
   return (
   <>
-    <h1>Jan</h1>
+    <h1>{ title}</h1>
     {/* <h1>{ JSON.stringify( newMessage ) }</h1> */}
-    <p>Soy un subtitulo</p>
+    <p>{ subtitle + 1 }</p>
   </>
 
   )
