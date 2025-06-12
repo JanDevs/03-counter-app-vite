@@ -1,9 +1,11 @@
 
 const FirstApp = () => {
   return (
-    <h1>
-        First App
-    </h1>
+  <>
+    <h1>Jan</h1>
+    <p>Soy un subtitulo</p>
+  </>
+
   )
 }
 
