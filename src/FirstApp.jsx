@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 
-const FirstApp = ( { title, subtitle } ) => {
+const FirstApp = ( { 
+    title = "No hay titulo", 
+    subtitle = "La tierra explota" } ) => {
   
   // console.log(props);
 
