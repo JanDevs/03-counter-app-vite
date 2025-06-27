@@ -1,6 +1,7 @@
 import { getHeroeById, getHeroesByOwner } from "../../src/base-pruebas/08-imp-exp";
 
 describe('Pruebas en 08-imp-exp', () => {
+    
     test('getHeroeById debe retornar un héroe por ID', () => {
         const id = 1;
         const hero = getHeroeById( id );
@@ -12,6 +13,7 @@ describe('Pruebas en 08-imp-exp', () => {
         const hero = getHeroeById( id );
         expect( hero ).toBeFalsy();
     });
+
     test('getHeroesByOwner debe retornar 3 objetos', () => {
         const owner = 'DC';
         const heroes = getHeroesByOwner( owner );
@@ -24,6 +26,7 @@ describe('Pruebas en 08-imp-exp', () => {
             ]
         );
     });
+    
     test('getHeroesByOwner debe retornar 2 objetos', () => {
         const owner = 'Marvel';
         const heroes = getHeroesByOwner( owner );
