@@ -2,7 +2,8 @@ import PropTypes from 'prop-types';
 
 const FirstApp = ( { 
     title = "No hay titulo", 
-    subtitle = "La tierra explota" } ) => {
+    subtitle = "La tierra explota",
+    name = "Jan" } ) => {
   
   // console.log(props);
 
@@ -11,6 +12,7 @@ const FirstApp = ( {
     <h1>{ title}</h1>
     {/* <h1>{ JSON.stringify( newMessage ) }</h1> */}
     <p>{ subtitle }</p>
+    <p>{ name }</p>
   </>
 
   )
