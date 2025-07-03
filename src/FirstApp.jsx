@@ -9,7 +9,7 @@ const FirstApp = ( {
 
   return (
   <>
-    <h1>{ title}</h1>
+    <div data-testid="test-title" >{ title }</div>
     {/* <h1>{ JSON.stringify( newMessage ) }</h1> */}
     <p>{ subtitle }</p>
     <p>{ name }</p>
